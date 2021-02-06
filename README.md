@@ -5,7 +5,7 @@ One can use this to quickly bring up RIPE Atlas Tools without installating any d
 
 ## Requirements
 
-Make sure you have a RIPE Account and hosting a RIPE Atls [hardware](https://atlas.ripe.net/get-involved/become-a-host/) or software [probe](https://labs.ripe.net/Members/alun_davies/ripe-atlas-software-probes). That way you would have credits to use RIPE Atlas platform. Incase you aren't hosting but still would like to try then create a RIPE Account & drop me a message with the email ID you used for creating account. I will add some credit so you can play around. 
+Make sure you have a RIPE Account and hosting a RIPE Atlas [hardware](https://atlas.ripe.net/get-involved/become-a-host/) or software [probe](https://labs.ripe.net/Members/alun_davies/ripe-atlas-software-probes). That way you would have credits to use RIPE Atlas platform. Incase you aren't hosting but still would like to try then create a RIPE Account & drop me a message with the email ID you used for creating account. I will add some credit so you can play around. 
 
 Besides RIPE Account with credit, you need docker engine installed to use this container. 
 
