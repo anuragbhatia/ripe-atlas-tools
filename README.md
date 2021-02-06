@@ -40,6 +40,7 @@ funcsave ripe-atlas
 
 ### Example of running traceroute?
 Here's an example of traceroute to he.net from RIPE Atlas probes in the US
+<br/>
 IPv4 traceroute: 
 ```
 docker run --rm -v ~/.config:/root/.config -it anuragbhatia/ripe-atlas-tools ripe-atlas measure traceroute --from-country us --af 4 --target he.net
