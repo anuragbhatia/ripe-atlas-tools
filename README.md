@@ -16,13 +16,13 @@ Besides RIPE Account with credit, you need docker engine installed to use this c
 
 First initialise config. This will keep container in one off use mode & will remove after use. It will store data on your docker host machine at ~/.config
 ```
-docker run --rm -it --name ripe-atlas-tools ~/.config:/root/.config anuragbhatia/ripe-atlas-tools ripe-atlas configure --init
+docker run --rm -it --name ripe-atlas-tools -v ~/.config:/root/.config anuragbhatia/ripe-atlas-tools ripe-atlas configure --init
 ```
 <br/>
 
 Next, create an API key in your RIPE Atlas account (instructions [here](https://beta-docs.atlas.ripe.net/apis/)) and add it in your config
 ```
-docker run --rm -it --name ripe-atlas-tools ~/.config:/root/.config anuragbhatia/ripe-atlas-tools ripe-atlas --set authorisation.create=YOUR_API_KEY
+docker run --rm -it --name ripe-atlas-tools -v ~/.config:/root/.config anuragbhatia/ripe-atlas-tools ripe-atlas configure --set authorisation.create=YOUR_API_KEY
 ```
 <br/>
 
